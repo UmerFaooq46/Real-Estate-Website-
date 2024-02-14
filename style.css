@@ -1,0 +1,129 @@
+body {
+    background-image: url('Images/home.png'); /* Set the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Ensure background image is fixed */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the heading (h1) */
+h1 {
+    color: #000000; /* Set heading color */
+    font-size: 40px; /* Set larger heading font size */
+    margin-bottom: 10px; /* Adjust spacing below heading */
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 40px; /* Larger font size */
+        font-weight: bold; /* Make it bold */
+    }
+}
+
+/* Style the paragraph (p) */
+p {
+    color: #000000; /* Set paragraph text color */
+    font-size: 19px; /* Set paragraph font size */
+    margin-bottom: 15px; /* Adjust spacing below paragraph */
+}
+
+/* Style the span text */
+span {
+    display: block;
+    color: #000000; /* Set span text color */
+    font-size: 12px; /* Set span text font size */
+    margin-bottom: 20px; /* Adjust spacing below span text */
+}
+/* Style the input for small size */
+#myInput {
+    width: 30%; /* Set the desired width, adjust as needed */
+    padding: 8px; /* Adjust padding for a smaller input */
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px; /* Set a smaller font size */
+}
+
+/* Style the button */
+#myBtn {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background-color: #2980b9;
+}/* Style for the image container */
+.image-container {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 140px;
+    left: 360px;
+}
+
+/* Style for the image */
+.image-container img {
+    width: 100%; /* Set the desired width */
+    height: 100%; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
+/* Rest of your CSS styles */
+
+   /* Custom CSS for centering the navbar */
+        .navbar-center {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Custom CSS for navbar */
+        .navbar {
+            background-color: #ffffff; /* Navbar background color */
+            border-bottom: 1px solid #e5e5e5; /* Border color */
+            padding: 10px 0; /* Adjust padding as needed */
+        }
+
+        /* Custom CSS for navbar brand */
+        .navbar-brand img {
+            height: 28px; /* Adjust height as needed */
+        }
+
+        /* Custom CSS for navbar toggler icon */
+        .navbar-toggler-icon {
+            background-color: #000000; /* Toggler icon color */
+        }
+
+        /* Custom CSS for navbar links */
+        .navbar-nav .nav-link {
+            color: #000000; /* Link text color */
+            padding: 10px 15px; /* Adjust padding as needed */
+            transition: color 0.3s ease; /* Smooth transition effect */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #007bff; /* Link text color on hover */
+        }
+
+        /* Custom CSS for buttons */
+        .navbar-nav.ms-auto .nav-item {
+            margin-left: 10px; /* Adjust as needed */
+        }
+
+        .navbar-nav.ms-auto .nav-link {
+            padding: 8px 15px; /* Adjust padding as needed */
+            border-radius: 5px; /* Rounded corners */
+            background-color: #007bff; /* Button background color */
+            color: #ffffff; /* Button text color */
+            text-decoration: none; /* Remove default underline */
+            transition: background-color 0.3s ease; /* Smooth transition effect */
+        }
+
+        .navbar-nav.ms-auto .nav-link:hover {
+            background-color: #0056b3; /* Change background color on hover */
+        }
